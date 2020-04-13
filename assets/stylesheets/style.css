@@ -1,0 +1,173 @@
+/* font-family: 'Quicksand', sans-serif; */
+
+/* general body CSS */
+body {
+    background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* begin header styling */
+header {
+    width: 850px;
+    margin: 0 auto;
+}
+
+/* styling for banner */
+div.banner_image {
+    position: relative;
+    width: 850px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(94, 83, 165); 
+    border-bottom: 50px solid white;
+}
+
+div.profile_pic {
+    z-index: 1;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(94, 83, 165);
+    border: 1px solid black;
+    top: -165px;
+    left: 15px ;
+}
+
+h1.username {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    top: -300px;
+    left: 180px;
+}
+
+h3.user_url {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+    top: -310px;
+    left: 180px;
+}
+
+/* button & page link styling */
+button {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    padding: 1px 6px 2px 6px;
+    border: 1px solid grey;
+}
+
+button:hover, button:active, button:focus {
+    font-weight: 600;
+    background-color: rgb(233, 227, 227);
+}
+
+button.like {
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+    top: -360px;
+    left: 550px;
+}
+
+button.follow {
+    color: lightgrey;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    top: -360px;
+    left: 550px;
+}
+
+button.message {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    top: -360px;
+    left: 545px;
+}
+
+button.menu {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    top: -360px;
+    left: 540px;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 8px 11px 5px;
+}
+
+a:hover, a:active, a:focus {
+    border-bottom: 3px solid darkslateblue;
+    font-weight: 600;
+}
+
+a.timeline {
+    position: relative;
+    top: -315px;
+    left: -85px;
+}
+
+a.about {
+    position: relative;
+    top: -315px;
+    left: -80px;
+}
+
+a.welcome {
+    position: relative;
+    top: -315px;
+    left: -84px;
+}
+
+a.fwb {
+    position: relative;
+    top: -315px;
+    left: -88px;
+}
+
+a.more {
+    position: relative;
+    top: -315px;
+    left: -93px;
+}
+
+div.button_divider {
+    width: 1px;
+    height: 30px;
+    background-color: lightgrey;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    top: -305px;
+}
+
+div.button_divider:nth-last-child(6) {
+    left: -83px;
+}
+
+div.button_divider:nth-last-child(4) {
+    left: -87px;
+}
+
+div.button_divider:nth-last-child(2) {
+    left: -91px;
+}
+
+/* end of header styling */
