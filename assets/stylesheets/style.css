@@ -187,12 +187,29 @@ div.button_divider:nth-last-child(2) {
 .body {
     width: 850px;
     margin: 0 auto;
+    padding: 0;
     columns: 2;
     column-gap: 10px;
 }
 
+.left_section {
+    float: left;
+    width: 328px;
+    margin: 0;
+}
+
+.right_section {
+    float: right;
+    width: 512px;
+    margin: 0;
+}
+
 .section * {
     background-color: rgb(83, 98, 165);
+}
+
+#photos_sec {
+    height: 150px;
 }
 
 .timeline * {
