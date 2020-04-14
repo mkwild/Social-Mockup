@@ -206,26 +206,12 @@ div.button_divider:nth-last-child(2) {
     margin: 0;
 }
 
-/*
-.section * {
-    background-color: rgb(83, 98, 165);
-}
-
-#photos_sec {
-    height: 150px;
-}
-
-.timeline * {
-    background-color: rgb(98, 83, 165);
-}
-*/
-
 #about_sec {
     background-color: white;
     height: contain;
     margin: 0;
     border: 1px solid lightgrey;
-    border-radius: 1.25%;
+    border-radius: 1.375%;
 }
 
 .about_page .empty {
@@ -268,3 +254,90 @@ div.button_divider:nth-last-child(2) {
     color: rgb(112, 112, 224);
 }
 
+#address_sec {
+    background-color: white;
+    height: contain;
+    margin: 10px 0 0 0;
+    border: 1px solid lightgrey;
+    border-radius: 1.375%;
+}
+
+.address h2 {
+    font-size: 14px;
+    font-weight: 600; 
+    color: rgb(153, 153, 153);
+    margin: 0;
+    padding: 8px 0 8px 8px;
+    clear: both;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    top: -24px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.address h2:after {
+    content: ">";
+    float: right;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+    position: relative;
+    top: -6px;
+    right: 8px;
+}
+
+.address1 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 24px;
+    position: relative;
+    top: -16px;
+}
+
+.address1:nth-child(3) {
+    color: rgb(184, 183, 183);
+    padding-left: 36px;
+}
+
+.address1:nth-child(2):before {
+    content: "📍";
+    position: relative;
+    right: 10px;
+}
+
+.address .empty:nth-last-child(3) {
+    height: 1px;
+    width: 304px;
+    margin: 0 12px;
+    background-color: lightgrey;
+    position: relative;
+    top: -5px;
+}
+
+.address .empty:nth-last-child(2) {
+    height: 32px;
+}
+
+.phone_no {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(71, 71, 180);
+    text-decoration: none;
+    margin: 0 10px;
+    position: relative;
+    float: left;
+    clear: both;
+    top: -32px;
+    left: 8px;
+}
+
+.phone_no:before {
+    content: "📞";
+    font-size: 12px;
+    position: relative;
+    right: 6px;
+}
+
+.phone_no:hover, .phone_no:active, .phone_no:focus {
+    color: rgb(112, 112, 224);
+}
