@@ -181,3 +181,20 @@ div.button_divider:nth-last-child(2) {
 }
 
 /* end of header styling */
+
+/* body styling */
+
+.body {
+    width: 850px;
+    margin: 0 auto;
+    columns: 2;
+    column-gap: 10px;
+}
+
+.section * {
+    background-color: rgb(83, 98, 165);
+}
+
+.timeline * {
+    background-color: rgb(98, 83, 165);
+}
