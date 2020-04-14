@@ -10,7 +10,8 @@ body {
 }
 
 /* begin header styling */
-header {
+.header {
+    height: 300px;
     width: 850px;
     margin: 0 auto;
 }
@@ -21,8 +22,14 @@ div.banner_image {
     width: 850px;
     height: 300px;
     margin: 0 auto;
-    background-color: rgb(94, 83, 165); 
-    border-bottom: 50px solid white;
+    background-color: rgb(83, 98, 165); 
+}
+
+div.navbar {
+    height: 50px;
+    width: 850px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 div.profile_pic {
@@ -30,9 +37,13 @@ div.profile_pic {
     position: relative;
     width: 150px;
     height: 150px;
-    background-color: rgb(94, 83, 165);
+    background-color: rgb(83, 98, 165);
+/*    background-image: url(../images/mark_twain.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;    */
     border: 1px solid black;
-    top: -165px;
+    border-radius: 1.75%;
+    top: -115px;
     left: 15px ;
 }
 
@@ -43,7 +54,7 @@ h1.username {
     font-weight: 500;
     position: relative;
     z-index: 1;
-    top: -300px;
+    top: -260px;
     left: 180px;
 }
 
@@ -54,28 +65,29 @@ h3.user_url {
     font-weight: 300;
     position: relative;
     z-index: 1;
-    top: -310px;
+    top: -270px;
     left: 180px;
 }
 
 /* button & page link styling */
-button {
+header button {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     padding: 1px 6px 2px 6px;
     border: 1px solid grey;
+    border-radius: 7.5%;
 }
 
-button:hover, button:active, button:focus {
-    font-weight: 600;
-    background-color: rgb(233, 227, 227);
+header button:hover, button:active, button:focus {
+    /*font-weight: 600;*/
+    background-color: rgb(184, 185, 199);
 }
 
 button.like {
     margin: 10px;
     position: relative;
     z-index: 1;
-    top: -360px;
+    top: -320px;
     left: 550px;
 }
 
@@ -84,7 +96,7 @@ button.follow {
     margin: 0;
     position: relative;
     z-index: 1;
-    top: -360px;
+    top: -320px;
     left: 550px;
 }
 
@@ -92,7 +104,7 @@ button.message {
     margin: 0;
     position: relative;
     z-index: 1;
-    top: -360px;
+    top: -320px;
     left: 545px;
 }
 
@@ -100,74 +112,72 @@ button.menu {
     margin: 0;
     position: relative;
     z-index: 1;
-    top: -360px;
+    top: -320px;
     left: 540px;
 }
 
-a {
+header a {
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
     color: black;
-    padding: 5px 8px 11px 5px;
+    padding: 5px 5px 11px 5px;
 }
 
-a:hover, a:active, a:focus {
+header a:hover, a:active, a:focus {
     border-bottom: 3px solid darkslateblue;
     font-weight: 600;
 }
 
 a.timeline {
+    border-bottom: 3px solid darkslateblue;
+    font-weight: 600;
     position: relative;
-    top: -315px;
-    left: -85px;
+    left: 185px;
 }
 
 a.about {
     position: relative;
-    top: -315px;
-    left: -80px;
+    left: 182px;
 }
 
 a.welcome {
     position: relative;
-    top: -315px;
-    left: -84px;
+    left: 186px;
 }
 
 a.fwb {
     position: relative;
-    top: -315px;
-    left: -88px;
+    left: 190px;
 }
 
 a.more {
     position: relative;
-    top: -315px;
-    left: -93px;
+    left: 193px;
 }
 
 div.button_divider {
     width: 1px;
     height: 30px;
     background-color: lightgrey;
+    opacity: 75%;
     z-index: 2;
     position: relative;
     display: inline-block;
-    top: -305px;
+    top: 8px;
 }
 
 div.button_divider:nth-last-child(6) {
-    left: -83px;
+    left: 183px;
 }
 
 div.button_divider:nth-last-child(4) {
-    left: -87px;
+    left: 187px;
 }
 
 div.button_divider:nth-last-child(2) {
-    left: -91px;
+    left: 191px;
 }
 
 /* end of header styling */
