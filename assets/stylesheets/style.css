@@ -186,7 +186,9 @@ div.button_divider:nth-last-child(2) {
 
 .body {
     width: 850px;
-    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 10px auto 0 auto;
     padding: 0;
     columns: 2;
     column-gap: 10px;
@@ -204,6 +206,7 @@ div.button_divider:nth-last-child(2) {
     margin: 0;
 }
 
+/*
 .section * {
     background-color: rgb(83, 98, 165);
 }
@@ -215,3 +218,53 @@ div.button_divider:nth-last-child(2) {
 .timeline * {
     background-color: rgb(98, 83, 165);
 }
+*/
+
+#about_sec {
+    background-color: white;
+    height: contain;
+    margin: 0;
+    border: 1px solid lightgrey;
+    border-radius: 1.25%;
+}
+
+.about_page .empty {
+    height: 25px;
+}
+
+.about_page h2 {
+    border-top: 1px solid lightgrey;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0 0 8px;
+    margin: 0;
+}
+
+.about_page p {
+    margin: 4px 0 0 0;
+    padding: 0 8px 8px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(81, 81, 190);
+    border-bottom: 1px solid lightgrey;
+}
+
+.about_page .empty:nth-last-child(2) {
+    height: 32px;
+ }
+.about_page a {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(71, 71, 180);
+    float: left;
+    position: relative;
+    top: -34px;
+    clear: both;
+    text-decoration: none;
+    padding: 8px 0 8px 8px;
+}
+
+.about_page a:hover, a:active, a:focus {
+    color: rgb(112, 112, 224);
+}
+
