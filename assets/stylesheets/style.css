@@ -130,7 +130,7 @@ header a:hover, a:active, a:focus {
     font-weight: 600;
 }
 
-a.timeline {
+a.timeline_link {
     border-bottom: 3px solid darkslateblue;
     font-weight: 600;
     position: relative;
