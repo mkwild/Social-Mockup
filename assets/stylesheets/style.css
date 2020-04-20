@@ -613,3 +613,55 @@ h5.react_bar {
     top: 25px;
     border-top: 1px solid lightgrey;
 }
+
+#event_create div:nth-child(4) {
+    height: 175px;
+    width: 482px;
+    background-color: rgb(83, 98, 165);
+    margin: 3px 8px;
+    position: relative;
+    top: 24px;
+    left: 7px;
+}
+
+.event_details {
+    height: 70px;
+    width: 482px;
+    box-sizing: border-box;
+    background-color: rgb(250, 250, 250);
+    margin: 0 8px;
+    position: relative;
+    top: 21px;
+    left: 7px;
+    border: 1px solid lightgrey;
+}
+.event_details a {
+    color: rgb(71, 71, 180);
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.event_details p {
+    color: grey;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.event_details p:nth-child(3) {
+    top: -25px;
+}
+
+button.join_event {
+    position: relative;
+    top: -15px;
+    left: 425px;
+}
+
+#event_create .react_bar {
+    top: 10px;
+}
