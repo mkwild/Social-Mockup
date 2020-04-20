@@ -497,10 +497,10 @@ footer ul {
     float: left;
 }
 
-.timeline#cover_change {
+.timeline {
     background-color: white;
     height: contain;
-    margin: 10px 0 0 0;
+    margin: 10px 0;
     border: 1px solid lightgrey;
     border-radius: .75%;
 }
@@ -552,9 +552,10 @@ a.username {
     top: 24px;
 }
 
-.timeline .react_bar {
+h5.react_bar {
     background-color: rgb(240, 240, 240);
     height: 35px;
+    margin: 0;
     position: relative;
     top: 25px;
     border-top: 1px solid lightgrey;
@@ -564,20 +565,19 @@ ul.interact {
     list-style-type: none;
     color: rgb(71, 71, 180);
     font-size: 14px;
-    display: inline;
 }
 
 ul.interact li {
     float: left;
     position: relative;
-    top: 8px;
-    left: 12px;
+    top: -5px;
+    left: -25px;
 }
 
 .timeline#status_update {
     background-color: white;
     height: contain;
-    margin: 10px 0 0 0;
+    margin: 10px 0;
     border: 1px solid lightgrey;
     border-radius: .75%;
     position: relative;
@@ -595,4 +595,14 @@ p.status {
     text-align: left;
     position: relative;
     left: -96px;
+}
+
+.timeline#event_create {
+    background-color: white;
+    height: contain;
+    margin: 10px 0;
+    border: 1px solid lightgrey;
+    border-radius: .75%;
+    position: relative;
+    top: 48px;
 }
