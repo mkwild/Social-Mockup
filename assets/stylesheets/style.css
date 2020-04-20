@@ -184,7 +184,7 @@ div.button_divider:nth-last-child(2) {
 
 /* body styling */
 
-.body {
+main {
     width: 850px;
     font-family: 'Quicksand', sans-serif;
     box-sizing: border-box;
