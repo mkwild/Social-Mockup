@@ -552,15 +552,6 @@ a.username {
     top: 24px;
 }
 
-h5.react_bar {
-    background-color: rgb(240, 240, 240);
-    height: 35px;
-    margin: 0;
-    position: relative;
-    top: 25px;
-    border-top: 1px solid lightgrey;
-}
-
 ul.interact {
     list-style-type: none;
     color: rgb(71, 71, 180);
@@ -584,6 +575,13 @@ ul.interact li {
     top: 25px;
 }
 
+#dumb li {
+    float: left;
+    position: relative;
+    top: -5px;
+    left: -105px;
+}
+
 #status_update div:nth-child(4) {
     position: relative;
     top: 16px;
@@ -605,4 +603,13 @@ p.status {
     border-radius: .75%;
     position: relative;
     top: 48px;
+}
+
+h5.react_bar {
+    background-color: rgb(240, 240, 240);
+    height: 35px;
+    margin: 0;
+    position: relative;
+    top: 25px;
+    border-top: 1px solid lightgrey;
 }
